@@ -1,0 +1,612 @@
+---
+import Demo from "./Demo.astro";
+---
+
+<section class="formation" id="formation">
+  <div class="heading-center">
+    <h5 class="heading-quinary">Formation</h5>
+  </div>
+  <div class="formation__container">
+    <div class="formation__box">
+      <!-- First Card -->
+      <div class="card">
+        <!-- CARD FRONT -->
+        <div class="card__side card__side--front">
+          <!--  -->
+          <div class="card__box card__box--1">
+            <div class="card__header">
+              <svg class="card__icon--1">
+                <use
+                  xlink:href="../assets/icons/sprite.svg#icon-graduation-cap"
+                >
+                </use>
+              </svg>
+              <div class="card__degree">
+                <span class="card__degree--span">
+                  Certificat de fin de formation
+                </span>
+              </div>
+              <p class="card__header--title">Advanced CSS and SASS</p>
+              <p class="card__header--subtitle">
+                Flexbox - Grid - Animations and More !
+              </p>
+            </div>
+            <svg class="card__icon--2">
+              <use xlink:href="../assets/icons/sprite.svg#icon-layers"> </use>
+            </svg>
+            <div class="card__footer">
+              <p>Auteur - Jonas Schmedtmann</p>
+            </div>
+            <a
+              class="card__side--back-btn card__side--back-btn-card card__side--back-btn-animated"
+            >
+              En savoir plus..</a
+            >
+          </div>
+        </div>
+
+        <!-- CARD BACK -->
+        <div class="card__side card__side--back card__side--back-1">
+          <div class="card__side--back-header">
+            <p>
+              Cette formation se présente comme la formation CSS la plus avancée
+              et la plus moderne sur Internet. Elle porte respectivement
+              l'attention sur 3 gros projets en CSS, SASS, FLEXBOX, et GRID en
+              utilisant des technologies modernes de CSS.
+            </p>
+            <p class="card__side--back-header__paragraph">
+              (Ce cours a été ajouté à la sélection UDEMY des cours les mieux
+              notés, approuvée par les entreprises à l'échelle internationale).
+            </p>
+          </div>
+          <a
+            href="#popup"
+            class="card__side--back-btn card__side--back-btn-animated"
+          >
+            Cliquer ici pour plus d'infos</a
+          >
+
+          <svg class="card__icon--2">
+            <use xlink:href="../assets/icons/sprite.svg#icon-layers"> </use>
+          </svg>
+
+          <div class="card__side--back-footer">
+            <img
+              src="../assets/formation/udemy.svg"
+              class="card__side--back-img"
+              alt=""
+              width="100"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- Second Card -->
+      <div class="card">
+        <!-- CARD FRONT -->
+        <div class="card__side card__side--front">
+          <!--  -->
+          <div class="card__box card__box--2">
+            <div class="card__header">
+              <svg class="card__icon--1">
+                <use
+                  xlink:href="../assets/icons/sprite.svg#icon-graduation-cap"
+                >
+                </use>
+              </svg>
+              <div class="card__degree">
+                <span class="card__degree--span">
+                  Certificat de fin de formation
+                </span>
+              </div>
+              <p class="card__header--title">CSS Bootcamp - Master in CSS</p>
+              <p class="card__header--subtitle">
+                Including CSS GRID / CSS Flexbox
+              </p>
+            </div>
+            <svg class="card__icon--2">
+              <use xlink:href="../assets/icons/sprite.svg#icon-layers"> </use>
+            </svg>
+            <div class="card__footer">
+              <p>Auteur - Code And Create, George LOMIDZE, Lasha NOZADZE</p>
+            </div>
+            <a
+              class="card__side--back-btn card__side--back-btn-card card__side--back-btn-animated"
+            >
+              En savoir plus..</a
+            >
+          </div>
+        </div>
+
+        <!-- CARD BACK -->
+        <div class="card__side card__side--back card__side--back-2">
+          <div class="card__side--back-header">
+            <p>
+              Cette formation fait partie des formations les plus avancées en
+              CSS. Elle porte respectivement l'attention sur 2 gros projets CSS
+              FLEXBOX et en CSS Grid.
+            </p>
+            <p class="card__side--back-header__paragraph">
+              (Ce cours a été ajouté à la sélection EDUONIX des cours les mieux
+              notés, approuvée par les entreprises à l'échelle internationale).
+            </p>
+          </div>
+          <a
+            href="#popup2"
+            class="card__side--back-btn card__side--back-btn-animated"
+          >
+            Cliquer ici pour plus d'infos</a
+          >
+          <svg class="card__icon--2">
+            <use xlink:href="../assets/icons/sprite.svg#icon-layers"> </use>
+          </svg>
+
+          <div class="card__side--back-footer">
+            <img
+              src="data:image/png;base64,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"
+              data-deferred="1"
+              class="rg_i Q4LuWd"
+              width="50"
+              alt="Eduonix | Business Essentials | VISA"
+              data-iml="717.5999999046326"
+              data-atf="true"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- Third Card -->
+      <div class="card">
+        <!-- CARD FRONT -->
+        <div class="card__side card__side--front">
+          <!--  -->
+          <div class="card__box card__box--3">
+            <div class="card__header">
+              <svg class="card__icon--1">
+                <use
+                  xlink:href="../assets/icons/sprite.svg#icon-graduation-cap"
+                >
+                </use>
+              </svg>
+              <div class="card__degree">
+                <span class="card__degree--span">
+                  Certificat de fin de formation
+                </span>
+              </div>
+              <p class="card__header--title">CSS and Javascript Crash Course</p>
+              <p class="card__header--subtitle">&nbsp;</p>
+            </div>
+            <svg class="card__icon--2">
+              <use xlink:href="../assets/icons/sprite.svg#icon-layers"> </use>
+            </svg>
+            <div class="card__footer">
+              <p>Auteur -PROPER DOT INSTITUTE</p>
+            </div>
+            <a
+              class="card__side--back-btn card__side--back-btn-card card__side--back-btn-animated"
+            >
+              En savoir plus..</a
+            >
+          </div>
+        </div>
+
+        <!-- CARD BACK -->
+        <div class="card__side card__side--back card__side--back-3">
+          <div class="card__side--back-header">
+            <p>
+              Cette formation est une introduction au CSS et au Javascript. Elle
+              nous montre les bases du CSS et du Javascript.
+            </p>
+          </div>
+          <a
+            href="#popup3"
+            class="card__side--back-btn card__side--back-btn-animated"
+          >
+            Cliquer ici pour plus d'infos</a
+          >
+          <svg class="card__icon--2">
+            <use xlink:href="../assets/icons/sprite.svg#icon-layers"> </use>
+          </svg>
+
+          <div class="card__side--back-footer">
+            <img
+              src="../assets/formation/udemy.svg"
+              class="card__side--back-img"
+              alt=""
+              width="100"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- Fouth Card -->
+      <div class="card">
+        <!-- CARD FRONT -->
+        <div class="card__side card__side--front">
+          <!--  -->
+          <div class="card__box card__box--4">
+            <div class="card__header">
+              <svg class="card__icon--1">
+                <use
+                  xlink:href="../assets/icons/sprite.svg#icon-graduation-cap"
+                >
+                </use>
+              </svg>
+              <div class="card__degree">
+                <span class="card__degree--span">
+                  Certificat de fin de formation
+                </span>
+              </div>
+              <p class="card__header--title">Formation GIT ET GITHUB</p>
+              <p class="card__header--subtitle">de Débutant à Confirmé</p>
+            </div>
+            <svg class="card__icon--2">
+              <use xlink:href="../assets/icons/sprite.svg#icon-layers"> </use>
+            </svg>
+            <div class="card__footer">
+              <p>Auteur - Arnaud MERCIER</p>
+            </div>
+            <a
+              class="card__side--back-btn card__side--back-btn-card card__side--back-btn-animated"
+            >
+              En savoir plus..</a
+            >
+          </div>
+        </div>
+
+        <!-- CARD BACK -->
+        <div class="card__side card__side--back card__side--back-4">
+          <div class="card__side--back-header">
+            <p>
+              Cette formation nous montre le fonctionnement de Git et de GitHub. <br
+              />
+              A la fin de la formation, on devient autonome dans l'utilisation de
+              ses outils.
+            </p>
+            <p class="card__side--back-header__paragraph">
+              (Ce cours a été ajouté à la sélection UDEMY des cours les mieux
+              notés, approuvée par les entreprises à l'échelle internationale).
+            </p>
+          </div>
+          <a
+            href="#popup4"
+            class="card__side--back-btn card__side--back-btn-animated"
+          >
+            Cliquer ici pour plus d'infos</a
+          >
+          <svg class="card__icon--2">
+            <use xlink:href="../assets/icons/sprite.svg#icon-layers"> </use>
+          </svg>
+
+          <div class="card__side--back-footer">
+            <img
+              src="../assets/formation/udemy.svg"
+              class="card__side--back-img"
+              alt=""
+              width="100"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<Demo />
+
+<style lang="scss">
+  // FORMATION
+  .formation {
+    margin: 1rem 0;
+    &__container {
+      margin: 1rem 0;
+    }
+    &__box {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+    }
+  }
+
+  // CARD
+  .card {
+    width: 30%;
+    min-height: 30rem;
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+
+    // 😍😍😍
+    @media screen and (max-width: 56.25em) {
+      // width: 0;
+      flex: 1 0 40%;
+      background: red;
+    }
+    @media screen and (max-width: 42em) {
+      flex: 1 0 50%;
+    }
+
+    //BOX
+    &__box {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+      // background-blend-mode: screen;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      height: 30rem;
+      margin-bottom: 1rem;
+      &--1 {
+        background: linear-gradient(
+            45deg,
+            rgba(29, 244, 153, 0.8),
+            rgba(29, 200, 205, 0.8)
+          ),
+          url(../assets/degree2.jpg), center fixed;
+        color: aliceblue;
+      }
+      &--2 {
+        background: linear-gradient(
+            45deg,
+            rgba(254, 70, 245, 0.8),
+            rgba(250, 158, 246, 0.8)
+          ),
+          url(../assets/degree2.jpg), center fixed;
+        color: aliceblue;
+      }
+      &--3 {
+        background: linear-gradient(
+            45deg,
+            rgba(70, 205, 254, 0.8),
+            rgba(45, 131, 162, 0.8)
+          ),
+          url(../assets/degree2.jpg), center fixed;
+        color: aliceblue;
+      }
+      &--4 {
+        background: linear-gradient(
+            45deg,
+            rgba(251, 254, 70, 0.8),
+            rgba(181, 183, 49, 0.8)
+          ),
+          url(../assets/degree2.jpg), center fixed;
+        color: aliceblue;
+      }
+    }
+    //SIDE
+    &__side {
+      min-height: 30rem;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      backface-visibility: hidden;
+      transition: all 0.8s ease;
+      border-radius: 3px;
+      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+      overflow: hidden;
+      text-align: center;
+
+      &--front {
+        background-color: white;
+      }
+      &--back {
+        transform: rotateY(180deg);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+        &-1 {
+          background: linear-gradient(
+            45deg,
+            rgba(29, 244, 153, 0.8),
+            rgba(29, 200, 205, 0.8)
+          );
+        }
+        &-2 {
+          background: linear-gradient(
+              45deg,
+              rgba(254, 70, 245, 0.8),
+              rgba(250, 158, 246, 0.8)
+            ),
+            url(../assets/degree2.jpg), center/cover;
+        }
+        &-3 {
+          background: linear-gradient(
+              45deg,
+              rgba(70, 205, 254, 0.8),
+              rgba(45, 131, 162, 0.8)
+            ),
+            url(../assets/degree2.jpg), center/cover;
+        }
+        &-4 {
+          background: linear-gradient(
+              45deg,
+              rgba(251, 254, 70, 0.8),
+              rgba(181, 183, 49, 0.8)
+            ),
+            url(../assets/degree2.jpg), center/cover;
+        }
+
+        &-header {
+          width: 90%;
+          font-size: 0.9rem;
+          letter-spacing: 1px;
+          line-height: 1.7;
+          margin: 1rem auto;
+          font-weight: bold;
+          &__paragraph {
+            padding-top: 3px;
+            font-size: 0.6rem;
+            font-weight: normal;
+            line-height: normal;
+          }
+        }
+        &-footer {
+          margin-left: auto;
+        }
+
+        &-img {
+          display: block;
+          width: 4rem;
+          margin-left: auto;
+        }
+
+        &-btn {
+          &:link,
+          &:visited {
+            display: block;
+            font-size: 1rem;
+            text-decoration: none;
+            border-radius: 15rem;
+            padding: 0.2rem 1rem;
+            transition: all 0.3s;
+            position: relative;
+            background-color: white;
+            color: grey;
+          }
+
+          &:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+            &::after {
+              transform: scaleX(1.4) scaleY(1.6);
+              opacity: 0;
+            }
+          }
+          &:active,
+          &:focus {
+            outline: none;
+            transform: translateY(-1px);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+          }
+          &::after {
+            content: "";
+            background-color: white;
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            border-radius: 10rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            transition: all 0.4s;
+          }
+          &-animated {
+            animation-name: moveInBottom;
+            animation-duration: 0.5s;
+            animation-timing-function: ease-out;
+            animation-delay: 0.75s;
+            animation-fill-mode: backwards;
+          }
+          &-card {
+            display: inline-block;
+            font-size: 0.8rem;
+            text-decoration: none;
+            border-radius: 15rem;
+            padding: 0.5rem 1rem;
+            transition: all 0.3s;
+            position: relative;
+            background-color: white;
+            color: grey;
+          }
+        }
+      }
+    }
+    //CARD SIDE HOVER
+    &:hover &__side--front {
+      transform: rotateY(-180deg);
+    }
+    &:hover &__side--back {
+      transform: rotateY(0);
+    }
+
+    //HEADER
+    &__header {
+      padding: 2rem 0 1rem;
+      &--title {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+      &--subtitle {
+        font-size: 0.9rem;
+      }
+    }
+
+    //FOOTER
+    &__footer {
+      margin: 0.5rem 1rem 1rem;
+      font-size: 0.8rem;
+      font-style: italic;
+    }
+
+    //BUTTON
+    &__button {
+      border-radius: 10rem;
+      padding: 0.4rem 0.8rem;
+      border: none;
+      font-size: 0.8rem;
+      border: 2px solid blueviolet;
+      box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.4);
+      outline: none;
+    }
+
+    //ICON
+    &__icon {
+      &--1 {
+        width: 3rem;
+        height: 3rem;
+        fill: var(--accent-regular);
+      }
+      &--2 {
+        width: 2rem;
+        height: 2rem;
+        fill: var(--accent-regular);
+      }
+      &--3 {
+        width: 0.8rem;
+        height: 0.8rem;
+        fill: var(--accent-regular);
+      }
+    }
+
+    //DEGREE
+    &__degree {
+      &--span {
+        padding: 0.8rem 0;
+        color: blueviolet;
+        font-size: 1.2rem;
+        display: grid;
+
+        &::before,
+        &::after {
+          content: "";
+          display: block;
+          width: 80%;
+          margin: 0 auto;
+          height: 3px;
+          border-radius: 1rem;
+          background-color: currentColor;
+        }
+        &:after {
+          justify-self: end;
+        }
+      }
+    }
+  }
+
+  //KEYFRAMES
+  @keyframes moveInBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+</style>

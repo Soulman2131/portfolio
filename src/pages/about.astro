@@ -1,0 +1,183 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Formation from "../components/Formation.astro";
+
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
+---
+
+<BaseLayout
+  title="A propos | Souleymane DRAME"
+  description="A propos de Souleymane DRAME"
+>
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero
+        title="A propos de moi"
+        tagline="Découvrez mon parcours et mes compétences"
+      >
+        <img
+          width="1553"
+          height="873"
+          src="/assets/codeur.jfif"
+          alt="ordinateur du codeur"
+        />
+      </Hero>
+
+      <section>
+        <h2 class="section-title">Compétences</h2>
+        <div class="content content__paragraph">
+          <p>
+            Titulaire de deux BAC + 5, je suis d'une formation initiale en <strong
+            >
+              économie
+            </strong> et en <strong> gestion des entreprises</strong>.
+            <br />
+            Aprés mes études universitaires, j'ai été <strong>
+              Enseignant en Lycée technique et professionnelle
+            </strong> pour des éléves de Premiére, de Terminal et d'étudiants en
+            BTS, pendant plus d'une dizaine d'année. <br />
+            <br />
+            J'ai souhaité donner un nouvel élan à ma carriére. J'ai choisi la profession
+            de Développeur web parce que c'est un métier passionnant qui évolue rapidement
+            et qui offre de réelles perspectives. Elle constitue également une suite
+            logique de mes compétences transervales et expériences antérieures (conduite
+            de projets, capacité à transmettre,...). <br />
+            Je me suis formé auprés d' <i> Openclassrooms</i>, célébre
+            plateforme de formation en ligne. <br />
+            <br />
+            Diplômé de la formation <strong> Développeur Web</strong>, désireux
+            de mettre en pratique mes nouvelles compétences, et enthousiaste à
+            l'idée d'en apprendre davantage, j'ai suivi plusieurs formations
+            avec des certificats de formation sur des plateformes comme <i>
+              UDEMY, COURSERA, EDUONIX
+            </i>...
+          </p>
+          <p>
+            Ma principale qualité, c'est ma capacité à m'adapter à de nombreux
+            environnements et à apprendre de nouvelles choses et de nouvelles
+            technologies.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Diplôme</h2>
+        <div class="content content__education">
+          <div class="content__education--box">
+            <p class="content__education--degree">BAC + 2</p>
+            <p class="content__education--name-degree">Développeur Web</p>
+            <p class="content__education--university">Openclassrooms</p>
+          </div>
+          <div class="content__education--box">
+            <p class="content__education--degree">BAC + 5</p>
+            <p class="content__education--name-degree">
+              Master II Management de Projet et Ingénierie de Formation
+            </p>
+
+            <p class="content__education--university">
+              Université de Paris-Est Créteil
+            </p>
+          </div>
+          <div class="content__education--box">
+            <p class="content__education--degree">BAC + 5</p>
+            <p class="content__education--name-degree">
+              Master II Sciences Economiques
+            </p>
+            <p class="content__education--university">
+              Université de Bourgogne
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <Formation />
+
+      <section>
+        <h2 class="section-title">Skills</h2>
+
+        <div class="content">
+          <p class="content__paragraph">
+            Capacité d'adaptation, créatif, autonome, organisé, dynamique,
+            polyvalent, esprit d'équipe.
+          </p>
+        </div>
+      </section>
+
+      <ContactCTA />
+    </main>
+  </div>
+
+  <style>
+    .about {
+      display: flex;
+      flex-direction: column;
+    }
+
+    img {
+      margin-top: 1.5rem;
+      border-radius: 1.5rem;
+      box-shadow: var(--shadow-md);
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+      margin-top: 2rem;
+      color: var(--gray-200);
+    }
+
+    .section-title {
+      grid-column-start: 1;
+      font-size: var(--text-xl);
+      color: var(--gray-0);
+    }
+
+    .content {
+      display: grid;
+      grid-column: 2 / 4;
+    }
+
+    .content__paragraph {
+      line-height: 1.7;
+      /* 😍😎😎 */
+      @media screen and (max-width: 31.25em) {
+        font-size: 0.9rem;
+      }
+    }
+
+    .content__education--box {
+      display: grid;
+      grid-template-columns: 1fr 3fr 2fr;
+      column-gap: 1rem;
+      padding: 0.5rem;
+      margin: 0.5rem;
+      border: 1px solid white;
+      border: none;
+      background: linear-gradient(to right, var(--accent-regular), violet);
+      font-weight: bold;
+      color: wheat;
+      /* 😍😎😎 */
+      @media screen and (max-width: 31.25em) {
+        display: block;
+      }
+    }
+    .content__education--university {
+      color: black;
+      font-weight: bold;
+    }
+
+    .content :global(a) {
+      text-decoration: 1px solid underline transparent;
+      text-underline-offset: 0.25em;
+      transition: text-decoration-color var(--theme-transition);
+    }
+
+    .content :global(a:hover),
+    .content :global(a:focus) {
+      text-decoration-color: currentColor;
+    }
+
+    @media (min-width: 50em) {
+    }
+  </style>
+</BaseLayout>
