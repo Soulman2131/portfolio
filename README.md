@@ -4,7 +4,7 @@
 ##  🧑‍🚀  Telecharger mon CV [![download](https://github.com/Soulman2131/portfolio/assets/109850920/b7ef02e3-36ef-4bef-9e3c-39496702dd43)](https://soulman2131.github.io/cvita)
 
 ## Page d'accueil
-
+![screen](https://github.com/Soulman2131/portfolio/assets/109850920/8aa3e102-fc7a-4557-9899-28952e2fb661)
 
 
 
