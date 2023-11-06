@@ -12,7 +12,7 @@ Copier le site
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-![portfolio](C:\Users\sdram\OneDrive\Bureau\ACER\Acer OneDrive\CV\Portofolio\public\assets\soul.jpg)
+![portfolio](https://user-images.githubusercontent.com/357379/210779178-a98f0fb7-6b1a-4068-894c-8e1403e26654.jpg)
 
 ## 🧞 Commands
 
