@@ -42,12 +42,7 @@ const projects = (await getCollection("work"))
           </div>
         </Hero>
 
-        <img
-          alt="Souleymane DRAME"
-          width="480"
-          height="620"
-          src="assets/soul.jpg"
-        />
+        <img alt="Souleymane DRAME" src="assets/soul.jpg" />
       </header>
 
       <Skills />
@@ -99,12 +94,19 @@ const projects = (await getCollection("work"))
 
   .hero img {
     aspect-ratio: 5 / 4;
-    object-fit: contain;
+    object-fit: fill;
     object-position: top;
-    border-radius: 10rem;
-    width: 60%;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
   }
 
+  @media (min-width: 31.25em) {
+    .hero img {
+      width: 15rem;
+      height: 15rem;
+    }
+  }
   @media (min-width: 50em) {
     .hero {
       display: grid;
@@ -121,11 +123,10 @@ const projects = (await getCollection("work"))
 
     .hero img {
       aspect-ratio: 3 / 4;
-      border-radius: 4.5rem;
+      border-radius: 15rem;
       object-fit: cover;
       width: 100%;
       height: 100%;
-      background-color: red;
     }
   }
 
