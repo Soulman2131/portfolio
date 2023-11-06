@@ -6,7 +6,7 @@ Copier le site
 
 
 
-![Telecharger_mon_cv](https://github.com/Soulman2131/portfolio/assets/109850920/5e144d3a-80bb-42ea-a59d-9072ab62b7f0)
+Télécharger mon cv ![Telecharger_mon_cv](https://github.com/Soulman2131/portfolio/assets/109850920/5e144d3a-80bb-42ea-a59d-9072ab62b7f0)
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/portfolio)
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/portfolio/devcontainer.json)
 
