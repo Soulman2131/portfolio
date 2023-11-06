@@ -6,9 +6,7 @@ Copier le site
 
 
 
-![Telecharger_mon_cv](https://github.com/Soulman2131/portfolio/assets/109850920/5e144d3a-80bb-42ea-a59d-9072ab62b7f0)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/portfolio/devcontainer.json)
+![download_my_cv](https://github.com/Soulman2131/portfolio/assets/109850920/6630a24f-d63c-4623-9080-7c56c91de252)
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
