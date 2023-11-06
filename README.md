@@ -1,7 +1,7 @@
 # Astro Starter Kit: Portfolio
 
 
-## Telecharger mon CV ![open-book](https://github.com/Soulman2131/portfolio/assets/109850920/12a7f6e3-2c51-475d-864d-01299bf862f2)
+## Telecharger mon CV ![download](https://github.com/Soulman2131/portfolio/assets/109850920/b7ef02e3-36ef-4bef-9e3c-39496702dd43)
 
 
 
