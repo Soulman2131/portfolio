@@ -7,7 +7,7 @@
 ![screen_portfolio](https://github.com/Soulman2131/portfolio/assets/109850920/0518d168-4cdf-45b6-bf22-cbb3c2f842b8)
 
 
-## 🧞 Présentation
+## 🧞:heartpulse: Présentation
 Je vous présente mon portfolio où je vous fais voyager 🧑‍🚀  à travers mon parcours, mes compétences et mes expériences professionnelles.
 
 
