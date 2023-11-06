@@ -1,8 +1,10 @@
 # Astro Starter Kit: Portfolio
 
 ```
-npm create astro@latest -- --template portfolio
+Copier le site
 ```
+
+![photo](C:\Users\sdram\OneDrive\Bureau\ACER\Acer OneDrive\CV\Portofolio\public\assets\soul.jpg)
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/portfolio)
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/portfolio)
