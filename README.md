@@ -6,7 +6,7 @@ Copier le site
 
 
 
-![download_my_svg](https://github.com/Soulman2131/portfolio/assets/109850920/f95c7b1d-454a-44e3-a545-38b0299abf2c)
+![open-book](https://github.com/Soulman2131/portfolio/assets/109850920/12a7f6e3-2c51-475d-864d-01299bf862f2)
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
