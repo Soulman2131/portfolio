@@ -49,6 +49,52 @@ const { align = 'center', tagline, title } = Astro.props;
 
 		.title {
 			font-size: var(--text-2xl);
+			
 		}
 	}
 </style>
+<script>
+	const title = document.querySelector('.title');
+	let tableau = ["Hello!","Je m'appelle Souleymane.", "Je suis développeur Frontend et Backend."];
+
+let word = 0;
+let letter = 0;
+
+const handleTitle = () => {
+	const span = document.createElement("span");
+	span.textContent = tableau[word][letter];
+
+	title.appendChild(span);
+
+	
+	setTimeout(() => {
+		span.remove();
+	}, 2800);
+};
+
+const loop = () => {
+	setTimeout(() => {
+		//
+		if (word >= tableau.length) {
+			word = 0;
+			letter = 0;
+			loop();
+		} else if (letter < tableau[word].length) {
+			handleTitle();
+			letter++;
+			loop();
+		} else {
+			word++;
+			letter = 0;
+			setTimeout(() => {
+				loop();
+			}, 2800);
+		}
+	}, 60);
+};
+loop();
+
+
+	
+
+</script>
