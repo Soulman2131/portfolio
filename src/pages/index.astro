@@ -29,11 +29,13 @@ const projects = (await getCollection("work"))
   <div class="stack gap-20 lg:gap-48">
     <div class="wrapper stack gap-8 lg:gap-20">
       <header class="hero">
+        
         <Hero
           title=""
           tagline=""
           align="start"
         >
+        <h2 class="heading-secondary"></h2>
           <div class="roles">
             <Pill>
               <Icon icon="code" size="1.33em" /> Développeur Front-end
@@ -87,6 +89,12 @@ const projects = (await getCollection("work"))
     align-items: center;
     gap: 2rem;
   }
+  .heading-secondary {
+    font-size: var(--text-xl);
+		color: var(--gray-0);
+    max-width: 37ch;
+		margin-inline: auto;
+  }
 
   .roles {
     display: none;
@@ -128,6 +136,11 @@ const projects = (await getCollection("work"))
       width: 100%;
       height: 100%;
     }
+    
+    .heading-secondary {
+			font-size: var(--text-xxl);
+			
+		}
   }
 
   /* ====================================================== */
@@ -232,3 +245,47 @@ const projects = (await getCollection("work"))
     }
   }
 </style>
+<!--  ======================================================  -->
+
+<script>
+	const title = document.querySelector('.heading-secondary');
+	let tableau = ["Hello!","Je m'appelle Souleymane.", "Je suis développeur Frontend et Backend."];
+
+let word = 0;
+let letter = 0;
+
+const handleTitle = () => {
+	const span = document.createElement("span");
+	span.textContent = tableau[word][letter];
+
+	title.appendChild(span);
+
+	
+	setTimeout(() => {
+		span.remove();
+	}, 2800);
+};
+
+const loop = () => {
+	setTimeout(() => {
+		//
+		if (word >= tableau.length) {
+			word = 0;
+			letter = 0;
+			loop();
+		} else if (letter < tableau[word].length) {
+			handleTitle();
+			letter++;
+			loop();
+		} else {
+			word++;
+			letter = 0;
+			setTimeout(() => {
+				loop();
+			}, 2800);
+		}
+	}, 60);
+};
+loop();
+
+</script>
