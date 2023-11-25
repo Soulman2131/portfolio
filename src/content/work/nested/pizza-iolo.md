@@ -25,7 +25,7 @@ tags:
 
 <ul class="liens__list" > 
 <li class="liens__item"> <a href="https://pizza-iolo.netlify.app" target="_blank" class="liens__link" > Ouvrir le site </a> </li>
-<li class="liens__item"> <a href="https://effective-giggle-rqpvvww44rjcprrp.github.dev/" target="_blank" class="liens__link"> Ouvrir le repository </a></li>
+<li class="liens__item"> <a href="https://effective-giggle-rqpvvww44rjcprrp.github.dev/" target="_blank" class="liens__link"> Ouvrir avec Codespace </a></li>
 </ul>
 
   <style>
