@@ -17,7 +17,7 @@ tags:
 Concept de base de Vanilla Javascript :
 
 - DOM Manipulation.
-- API Fetch
+- API Fetch.
 
 #### Liens
 
